@@ -1,2 +1,2 @@
 # postsApp_clean_architecture
-lkjhu oiuy poiuyg poiuy poiuy
+lkjhu oiuy poiuyg poiuy
