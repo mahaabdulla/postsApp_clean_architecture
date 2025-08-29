@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 final ThemeData appTheme = ThemeData(
-  useMaterial3: true, // يشتغل بالـ Material 3
+  useMaterial3: true,
   brightness: Brightness.light,
   primaryColor: Colors.blue,
   colorScheme: ColorScheme.fromSeed(

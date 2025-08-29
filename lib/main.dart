@@ -11,8 +11,16 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      // title: 'Posts App',
+      debugShowCheckedModeBanner: false,
       theme: appTheme,
-      home: const Scaffold(body: Center(child: Text('Hello, World!'))),
+      home: Scaffold(
+        appBar: AppBar(
+          backgroundColor: Colors.blueAccent,
+          title: Text('Posts App'),
+        ),
+        body: Center(child: Text('POSTS APP!')),
+      ),
     );
   }
 }
